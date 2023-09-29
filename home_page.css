@@ -1,0 +1,115 @@
+*{  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border box;
+}
+body{
+    background-color: rgb(238, 221, 235);
+    overflow-x: hidden;
+}
+
+.heading{
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 30px;
+    color: black;
+    display: inline-block;
+    margin-left: 150px;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin-bottom: none;
+    margin-top: 0px;
+    
+}
+.navbar ul{
+    text-decoration: none;
+    
+    
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding-left: 30px;
+    background-color: black;
+}
+.adress{
+    color:red;
+    margin-left: 60px;
+    padding-top: 10px;
+}
+.container{
+    background-color: rgb(27, 27, 179);
+    border: 3px solid black;
+    width: 1520px;
+    border-radius: 9px;
+    display: flex;
+}
+.independenceImg{
+    height: 100px;
+    width: 100px;
+    padding-left: 40px;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+.logoImg{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+    
+}
+.accreditedImg{
+    
+    height: 100px;
+    width: 100px;
+    
+    padding-left: 50px;
+    margin-top: 10px;   
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    link-style: none;
+   
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+
+  .dropdown-content a:active {background-color: #440be1;}
+
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #d3f60c;}
