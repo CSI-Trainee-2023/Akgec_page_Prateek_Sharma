@@ -1,0 +1,53 @@
+.mission{
+    height: 90px;
+    border: 3px solid blue;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+}
+.vision{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    height: 78vh;
+    width: 97.5vw;
+    border: 1px solid rgb(229, 13, 13);
+}
+
+
+.logo img{
+    width: 500px;
+    height: 500px; 
+    border: 2px solid black;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius:30px;
+}
+    
+.visioncontainer{
+    width: 49vw;
+    margin-top: 10px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-bottom: 5px;
+      
+}
+
+.visioncontainer div{
+    border: 2px solid black;
+    border-radius:5px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    background-color: aqua;
+
+}
+
+.visioncontainer div h2,p{
+    margin-left: 10px;
+    color:brown;
+}
