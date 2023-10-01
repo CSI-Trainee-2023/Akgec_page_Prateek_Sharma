@@ -1,0 +1,26 @@
+.branch{
+    border: 1px solid white;
+    background-color: azure;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.branch ul{
+    margin-left:70px;
+    
+}
+.branch ul li{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: lightblue;
+    list-style:none;
+    color: red;
+    font-size: 20px;
+    padding: 20px;
+    
+    
+}
