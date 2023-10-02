@@ -1,7 +1,8 @@
 .mission{
     height: 90px;
     border: 3px solid blue;
-    background-color: purple;
+    border-bottom: 10px solid blue;
+    background-color: rgb(125, 157, 144);
     color: white;
     text-align: center;
     margin-top: 10px;
@@ -43,11 +44,17 @@
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 5px;
-    background-color: aqua;
+    background-color: rgb(144, 230, 230);
 
 }
 
-.visioncontainer div h2,p{
+.visioncontainer div h2{
+    text-align: center;
     margin-left: 10px;
-    color:brown;
+    color:rgb(229, 13, 13);
+}
+.visioncontainer div p{
+    text-align: center;
+    margin-left: 10px;
+    color:blue;
 }
