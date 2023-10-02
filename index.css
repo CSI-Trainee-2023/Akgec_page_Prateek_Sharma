@@ -138,17 +138,49 @@ body{
     text-align: center;
     text-decoration: underline 5px yellow;
   }
-  .aboutakg span{
-    margin bottom: 10px;
-      
-  }
-  .aboutakg img{
-    height: 600px;
-    width: 2500px;
-    border: 5px solid blue;
-    
+  
+  /* Container holding the image and the text */
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #0a0a0b;
+  font-size: 30px;
+  font-style: italic;
+}
+.container1 marquee img{
+  width: 1800px;
+  height: 600px;
+  border: 5px solid blue; 
+}
 
-  }
+.detailtag{
+  
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  border: 5px solid rgb(191, 224, 9);
+  background-color:rgb(227, 227, 25) ;
+}
+.detailtag p{
+  color:rgb(93, 14, 229);
+}
+.detailtag summary{
+  color:red ;
+}
+
+/* horizontal rule on the page  */
+.rulingLine{
+  color:yellow;
+  size: 6px;
+}
 
 
   /* class for img on home page  */
@@ -221,4 +253,250 @@ body{
     margin-left: 30px;
     margin-bottom: 20px;
     margin-right: 30px;
+  }
+
+  /* section 1 content sliding image content style  */
+  .about-bottom {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    /* padding-top: 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: InfriaSans-Regular;
+    gap: 120px;
+  }
+  .about-bottom h2 {
+    color: #e4b709;
+    font-size: 30px;
+  }
+
+  /* section 3 content  */
+  .section-3 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f5ca18;
+  }
+  
+  .section-3-head {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    /* background-color: red; */
+  }
+  .section-3-head h1 {
+    font-size: 2.8vw;
+    font-family: InfriaSerif-Regular;
+  }
+  
+  .line {
+    width: 80px;
+    height: 8px;
+    background-color: #e4b709;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card-section {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2%;
+  }
+  
+  .card-1 {
+    width: 28%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: InfriaSerif-Bold;
+    border: 1px solid #e4b709;
+  }
+  
+  .card-1 h1 {
+    padding: 10px 0px 8px 10px;
+    height: 15%;
+  }
+  
+  .card-1 h2 {
+    padding-left: 10px;
+    font-size: 1.3vw;
+    color: #00000080;
+    height: 20%;
+  }
+  
+  .readMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .readMore button {
+    background-color: white;
+    border: 1px solid #e4b709;
+  }
+  
+  .readMore button:hover{
+      background-color: #e4b709;
+      border: 1px solid #000000;
+  }
+  
+  .card-1 img {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .card-2 {
+    width: 28%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: InfriaSerif-Bold;
+    border: 1px solid #e4b709;
+  }
+  
+  .card-2 img {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .card-2 h1 {
+    padding: 10px 0px 8px 10px;
+    height: 15%;
+  }
+  
+  .card-2 h2 {
+    padding-left: 10px;
+    font-size: 1.3vw;
+    color: #00000080;
+    height: 20%;
+  }
+  /* section 4 content  */
+  .parallax {
+    background-image: url("https://www.akgec.ac.in/wp-content/uploads/2019/08/slider1-1.jpg");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .parallax-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+  }
+  
+  .parallax h1 {
+    color: rgb(243, 238, 238);
+    font-family: InfriaSans-Regular;
+    font-weight: bold;
+  }
+  
+  .parallax h3 {
+    color: rgb(244, 237, 237);
+    font-weight: bold;
+    padding-top: 8px;
+    font-family: InfriaSans-Regular;
+  }
+  
+  .box-3 {
+    margin-top: -30px;
+  }
+
+/* placement section style  */
+  .section-7 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 5%;
+  }
+  
+  .placements-1 {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+  }
+  
+  .placements {
+    width: 98%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .placements h1 {
+    font-family: InfriaSerif-Bold;
+    color: #00000040;
+  }
+  
+  .placements-row-1 {
+    width: 60%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: red; */
+  }
+  
+  .placements-row-1 img {
+    width: 180px;
+  }
+  
+  .placements-row-2 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+  }
+  
+  .placements-row-2 img {
+    width: 180px;
+    margin-right: 8%;
+  }
+  
+  .placements-row-3 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+  }
+  
+  .placements-row-3 img {
+    width: 180px;
+    margin-right: 1%;
   }
